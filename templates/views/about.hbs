@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>headerlinks}}
+</head>
+<body>
+    <!-- <h1>Welcome to the static web</h1>
+    <button class="btn btn-danger">Click</button> -->
+    {{>navbar}}
+
+    <!-- main header -->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-10 mx-auto">
+                <div class="row">
+                    <!-- Left side div -->
+                    <div class="col-md-6 col-12 main_header_left ">
+                        <p>Welcome to Weather App</p>
+                        <h1>I am a <span class="text_clr">MERN Stack Developer</span> having skils in React, MongoDB, Node.</h1>
+                        <a href="/weather"><button>About Me!</button></a>
+                    </div>
+                    <!-- Right side div -->
+                    <div class="col-md-6 col-12 main_header_right align-items-center">
+                        <figure style="width: 286px; height: 150px; margin-bottom: 150px;">
+                            <img src="images/sush-1 (1).png" alt="susya" class="img-fluid" title="sush-image">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    {{>footer}}
+</body>
+</html>
